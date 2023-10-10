@@ -36,11 +36,12 @@ module.exports = {
           general: 'linear-gradient(270deg,_#903aff,_#d434fe_56.42%,_#ff26b9_99.99%,_#fe34b9)',
           icon: 'linear-gradient(125.8deg, #9666FF 6.28%, #5645F5 99.52%)',
         },
-        gainsboro: "rgba(217, 217, 217, 0.03)",
-        red: "#ff0000",
-        cornflowerblue: "#00a3ff",
-        mediumslateblue: "#a866fd",
-        deeppink: "#ff26b9",
+        primary: "#212121",
+        navbg: "#F5F8FC",
+        secondary: "#028789",
+        navcolor: "#EAF0FA",
+        brown: "rgba(248, 180, 0, 0.07)",
+        deepbrown: "rgba(248, 180, 0, 0.37)"
       },
       fontFamily: {
         poppins: "Poppins",

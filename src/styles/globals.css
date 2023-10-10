@@ -30,9 +30,9 @@
 }
 
 body {
-  background: #150e28;
+  background: #ffffff;
   overflow-x: hidden;
-  color: black;
+  color: primary;
   font-size: 14px;
   font-family: poppins;
 }
