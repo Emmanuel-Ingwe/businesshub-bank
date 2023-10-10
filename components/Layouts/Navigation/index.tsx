@@ -1,5 +1,4 @@
 import { navigationLinks } from "../../../Data/navigation";
-import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Button from "../../global/Button";
 import React, { useState } from "react";
