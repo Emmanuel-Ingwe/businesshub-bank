@@ -68,6 +68,12 @@ const Navigation = () => {
 									src="/images/smiley.png"
 								/>
 								<h1 className="">Bolaji</h1>
+								<Image
+									alt=""
+									height={22}
+									width={23}
+									src="/images/chevron-down.svg"
+								/>
 							</div>
 						</div>
 					</div>
