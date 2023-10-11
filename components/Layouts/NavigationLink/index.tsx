@@ -1,5 +1,4 @@
 import { NavigationLinkType } from "../../../Data/navigation";
-import { AnimatePresence, motion } from "framer-motion";
 import { useActiveLink } from "../../../hooks/useActiveLinks";
 import { cn } from "../../../lib/utils"
 import Link from "next/link";
