@@ -1,11 +1,12 @@
 import MainLayout from "../../Layouts/MainLayouts";
 import { NextPageWithLayout } from "./_app";
+import Body from "../../components/Landing/Body"
 
 
 const IndexPage: NextPageWithLayout = ({}) => {
 	return (
 		<>
-			<h1>Hello World</h1>
+			<Body />
 		</>
 	);
 };
