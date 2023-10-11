@@ -27,7 +27,7 @@ const Navigation = () => {
 		<>
 			<nav className='flex items-center bg-navbg z-50 top-0 w-full border-b'>
 					<div className="flex">
-						<Link href='/' passHref className="h-[100%]">
+						<Link href='/' passHref className="h-[100%] w-[235px]">
 							<Image width={235} height={72}
 								src="/images/logoo.svg"
 								alt=""

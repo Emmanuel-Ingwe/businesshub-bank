@@ -11,63 +11,48 @@ const Body = (props: Props) => {
 	}
 
 	const data = [
-		{
-      title: "Get Started",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
     {
       title: "Get Started",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Dashboard",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Business",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Loans",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Store",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Payments",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Banking",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
+      title: "Settings",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
     {
-      title: "Get Started",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
-    {
-      title: "Get Started",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
-    {
-      title: "Get Started",
+      title: "Help Center",
 		  iconsrc: "/images/mail.svg",
 		  link: "/",
 		},
@@ -75,9 +60,9 @@ const Body = (props: Props) => {
 
   return (
     <>
-      <section className="h h-screen w-[235px] bg-navbg space-x-[12px]">
+      <section className="h h-screen w-[235px] bg-navbg space-x-[12px] pt-[26px]">
         {data.map((item, index) => (
-          <div className="flex w-[210px] bg-navcolor rounded items-start justify-center">
+          <div className="flex w-[210px] bg-navcolor hover:bg-brown p-[10px] rounded items-start pl-[30px] mb-[9px]">
             <Link href={item.link} className="flex" >
 											<Image
 												alt=""
@@ -85,7 +70,7 @@ const Body = (props: Props) => {
 												width={23}
 												src={item.iconsrc}
 											/>
-                      <h2>{item.title}</h2>
+                      <h2 className='pl-[16.5px]'>{item.title}</h2>
 						</Link>
           </div>
         ))}
