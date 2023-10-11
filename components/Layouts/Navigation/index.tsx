@@ -67,7 +67,7 @@ const Navigation = () => {
 									width={23}
 									src="/images/smiley.png"
 								/>
-								<h1 className="">Bolaji</h1>
+								<h1 className="pl-1">Bolaji</h1>
 								<Image
 									alt=""
 									height={22}
