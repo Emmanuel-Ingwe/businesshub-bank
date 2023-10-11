@@ -75,16 +75,17 @@ const Body = (props: Props) => {
 
   return (
     <>
-      <section className="h h-full w-[235px] bg-navbg space-x-[12px]">
+      <section className="h h-screen w-[235px] bg-navbg space-x-[12px]">
         {data.map((item, index) => (
-          <div className=" bg-navcolor">
-            <Link href={item.link} className="pr-4" >
+          <div className="flex w-[210px] bg-navcolor rounded items-start justify-center">
+            <Link href={item.link} className="flex" >
 											<Image
 												alt=""
 												height={23}
 												width={23}
 												src={item.iconsrc}
 											/>
+                      <h2>{item.title}</h2>
 						</Link>
           </div>
         ))}

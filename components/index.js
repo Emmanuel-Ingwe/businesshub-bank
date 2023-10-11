@@ -1,1 +1,1 @@
-export { default as Body } from "./Landing"
+export { default as Body } from "./Landing/Body"
