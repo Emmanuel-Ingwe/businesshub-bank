@@ -1,4 +1,5 @@
 import { navigationLinks } from "../../../Data/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import Button from "../../global/Button";
 import React, { useState } from "react";
@@ -13,9 +14,10 @@ const Navigation = () => {
 				<div className='flex items-center justify-between'>
 					<div>
 						<Link href='/' passHref>
-							<div className=''>
-								<h1 className="xl:text-17xl text-5xl font-[700]">get<span className="text-fuchsia-100">linked</span></h1>
-							</div>
+							<Image width={235} height={72}
+								src="/images/logo.png"
+								alt=""
+							/>
 						</Link>
 					</div>
 					<div className='flex items-center space-x-28'>
