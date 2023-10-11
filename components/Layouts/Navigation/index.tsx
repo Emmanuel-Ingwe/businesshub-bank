@@ -4,6 +4,25 @@ import React, { useState } from "react";
 
 const Navigation = () => {
 
+	type data = {
+		iconsrc: "string"
+	}
+
+	const data = [
+		{
+		  iconsrc: "/images/mail.svg",
+		  link: "/",
+		},
+		{
+			iconsrc: "/images/frame.svg",
+			link: "/",
+		  },
+		  {
+			iconsrc: "/images/mail.svg",
+			link: "/",
+		  },
+	  ];
+
 	return (
 		<>
 			<nav className='flex items-center bg-navbg z-50 top-0 w-full border-b'>
@@ -27,25 +46,29 @@ const Navigation = () => {
 							<h1 className=" text-secondary text-[15px] pl-1">Hello, <span className="font-semibold">Bolaji</span></h1>
 						</div>
 
-						<div className="pr-[117px]">
-						<Image
-								alt=""
-								height={22}
-								width={23}
-								src="/images/smiley.png"
-							/>
-							<Image
-								alt=""
-								height={22}
-								width={23}
-								src="/images/smiley.png"
-							/>
-							<Image
-								alt=""
-								height={22}
-								width={23}
-								src="/images/smiley.png"
-							/>
+						<div className="pr-[117px] flex">
+							<div className="flex pr-4">
+								{data.map((item, index) => (
+										<Link href={item.link} className="pr-4" >
+											<Image
+												alt=""
+												height={23}
+												width={23}
+												src={item.iconsrc}
+											/>
+										</Link>
+								))}
+							</div>
+
+							<div className="flex">
+								<Image
+									alt=""
+									height={22}
+									width={23}
+									src="/images/smiley.png"
+								/>
+								<h1 className="">Bolaji</h1>
+							</div>
 						</div>
 					</div>
 			</nav>
