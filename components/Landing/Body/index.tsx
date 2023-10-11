@@ -4,7 +4,11 @@ type Props = {}
 
 const Body = (props: Props) => {
   return (
-    <div>index</div>
+    <>
+      <section className="h h-full w-[235px] bg-navbg space-x-[12px]">
+        
+      </section>
+    </>
   )
 }
 

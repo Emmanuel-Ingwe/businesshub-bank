@@ -2,7 +2,7 @@ import MainLayout from "../../Layouts/MainLayouts";
 import { NextPageWithLayout } from "./_app";
 
 
-import { Body } from "../../components"
+import { Body,  } from "../../components"
 
 
 const IndexPage: NextPageWithLayout = ({}) => {
