@@ -18,7 +18,8 @@ module.exports = {
         navbg: "#F5F8FC",
         secondary: "#028789",
         navcolor: "#EAF0FA",
-        brown: "rgba(248, 180, 0, 0.07)",
+        brown: "rgba(248, 180, 0, 0.1)",
+        brownn: "rgba(248, 180, 0, 0.07)",
         deepbrown: "rgba(248, 180, 0, 0.37)"
       },
       fontFamily: {
