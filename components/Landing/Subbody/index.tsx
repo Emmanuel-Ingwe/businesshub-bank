@@ -5,7 +5,7 @@ type Props = {}
 
 const index = (props: Props) => {
     type data = {
-		iconsrc: "string"
+		title: "string"
 	}
 
 	const data = [
@@ -27,7 +27,11 @@ const index = (props: Props) => {
             <>
                 <section className="flex flex-col items-center m-[49px]">
                     <div className="">
-
+                        {data.map ((item) => (
+                            <div className="">
+                                ss
+                            </div>
+                        ))}
                     </div>
                     <div className="">
 
