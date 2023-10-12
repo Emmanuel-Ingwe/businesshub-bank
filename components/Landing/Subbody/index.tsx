@@ -22,14 +22,14 @@ const index = (props: Props) => {
 
   return (
     <>
-        <section className="grid grid-cols-2 gap-1">
+        <section className="flex">
             <Benefits />
             <>
-                <section className="flex flex-col items-center m-[49px]">
-                    <div className="flex border border-b-blac">
+                <section className="flex flex-col m-[49px]">
+                    <div className="flex border-b">
                         {data.map ((item) => (
-                            <div className="flex items-center border border-t-secondary border-l-secondary border-r-secondary">
-                                ss
+                            <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-[222px] h-[46px]">
+                                <h1 className=" text-secondary">{item.title}</h1>
                             </div>
                         ))}
                     </div>
