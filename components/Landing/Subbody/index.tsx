@@ -20,12 +20,24 @@ const index = (props: Props) => {
 		},
 	  ];
 
+      const dataa = [
+        {
+          title: "Business Name",
+            },
+        {
+          title: "Limited Liability",
+            },
+        {
+          title: "View Status",
+            },
+          ];
+
   return (
     <>
         <section className="flex">
             <Benefits />
             <>
-                <section className="flex flex-col m-[49px]">
+                <section className="flex flex-col m-[49px] w-[728px]">
                     <div className="flex border-b">
                         {data.map ((item) => (
                             <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-[222px] h-[46px]">
@@ -33,7 +45,7 @@ const index = (props: Props) => {
                             </div>
                         ))}
                     </div>
-                    <div className="">
+                    <div className="mt-[49px]">
                         ss
                     </div>
                 </section>
