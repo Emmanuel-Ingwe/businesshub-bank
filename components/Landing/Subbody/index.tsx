@@ -1,10 +1,14 @@
 import React from 'react'
+import Benefits from './Benefits'
 
 type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>index</div>
+    <>
+        <Benefits />
+        <div>index</div>
+    </>
   )
 }
 
