@@ -26,15 +26,15 @@ const index = (props: Props) => {
             <Benefits />
             <>
                 <section className="flex flex-col items-center m-[49px]">
-                    <div className="">
+                    <div className="flex border border-b-blac">
                         {data.map ((item) => (
-                            <div className="">
+                            <div className="flex items-center border border-t-secondary border-l-secondary border-r-secondary">
                                 ss
                             </div>
                         ))}
                     </div>
                     <div className="">
-
+                        ss
                     </div>
                 </section>
             </>
