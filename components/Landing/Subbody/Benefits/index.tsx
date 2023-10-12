@@ -32,7 +32,7 @@ const Benefits = (props: Props) => {
                     src="/Images/check.png"
                 />
             </div>
-            <p className="text-[11px] pl-[7px]">Zero AMF for upto 3 year. (Annual Manintanace Fee)</p>
+            <p className="text-[11px] pl-[7px]">Free search report for account opening.</p>
         </div>
         <div className="flex mt-[14px]">
             <div className="">
@@ -43,7 +43,7 @@ const Benefits = (props: Props) => {
                     src="/Images/check.png"
                 />
             </div>
-            <p className="text-[11px] pl-[7px]">Zero AMF for upto 3 year. (Annual Manintanace Fee)</p>
+            <p className="text-[11px] pl-[7px]">Access to Business Advisory from The Business Hub.</p>
         </div>
       </div>
     </section>
