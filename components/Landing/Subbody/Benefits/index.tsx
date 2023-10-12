@@ -9,7 +9,7 @@ const Benefits = (props: Props) => {
     <>
     <section className="flex">
       <div className="h h-screen w-[235px] bg-brownn pl-[12px] pt-[26px]">
-        
+        <div className=""></div>
       </div>
     </section>
   </>
