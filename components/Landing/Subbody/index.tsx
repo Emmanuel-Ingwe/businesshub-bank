@@ -28,7 +28,7 @@ const index = (props: Props) => {
           title: "Limited Liability",
             },
         {
-          title: "View Status",
+          title: "Incoporrated Trustee",
             },
           ];
 
