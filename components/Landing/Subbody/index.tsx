@@ -6,8 +6,10 @@ type Props = {}
 const index = (props: Props) => {
   return (
     <>
-        <Benefits />
-        <div>index</div>
+        <section className="grid grid-cols-2 gap-3">
+            <Benefits />
+            <div>index</div>
+        </section>
     </>
   )
 }
