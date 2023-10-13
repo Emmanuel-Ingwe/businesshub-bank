@@ -52,7 +52,7 @@ const index = (props: Props) => {
           para2: "Zero AMF for up to 3 years", 
           para3: "Search Report", 
           para4: "Open an Account", 
-          image: "/Images/NGR.png",
+          image: "/images/NGR.png",
           figure: "150,000",
           button: <Button label='CHOOSE' />,
             },
@@ -71,23 +71,74 @@ const index = (props: Props) => {
                             </div>
                         ))}
                     </div>
-                    <div className="mt-[49px] flex items-center">
+                    <div className="mt-[49px] grid gap-32 grid-cols-3">
                       {dataa.map((item) => (
-                         <div className="">
-                          <div className="flex justify-between border-b">
+                        <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md w-[265px]">
+                          <div className="justify-between border-b flex flex-co items-start">
                             <h3 className="">{item.title}</h3>
                             <input type="checkbox" />
                           </div>
-                          <div className="flex">
-                            <Image
-                                alt=""
-                                height={14}
-                                width={14}
-                                src="/Images/check.png"
-                            />
-                            <p className=""></p>
+                          <div className="flex flex-col">
+                            <div className="flex">
+                              <Image
+                                  alt=""
+                                  height={14}
+                                  width={14}
+                                  src="/Images/greencheck.png"
+                              />
+                              <p className=" text-primary text-[10px]">{item.para0}</p>
+                            </div>
+                            <div className="flex">
+                              <Image
+                                  alt=""
+                                  height={14}
+                                  width={14}
+                                  src="/Images/greencheck.png"
+                              />
+                              <p className=" text-primary text-[10px]">{item.para1}</p>
+                            </div>
+                            <div className="flex">
+                              <Image
+                                  alt=""
+                                  height={14}
+                                  width={14}
+                                  src="/Images/greencheck.png"
+                              />
+                              <p className=" text-primary text-[10px]">{item.para2}</p>
+                            </div>
+                            <div className="flex">
+                              <Image
+                                  alt=""
+                                  height={14}
+                                  width={14}
+                                  src="/Images/greencheck.png"
+                              />
+                              <p className=" text-primary text-[10px]">{item.para3}</p>
+                            </div>
+                            <div className="flex">
+                              <Image
+                                  alt=""
+                                  height={14}
+                                  width={14}
+                                  src="/Images/greencheck.png"
+                              />
+                              <p className=" text-primary text-[10px]">{item.para4}</p>
+                            </div>
                           </div>
-                         </div>  
+                          <div className="grid grid-cols-2">
+                            <div className="flex">
+                              <Image
+                                src={item.image}
+                                alt='img'
+                                width={20}
+                                height={20}
+                               /> {item.figure}
+                            </div>
+                            <div className="">
+                              {item.button}
+                            </div>
+                          </div>
+                        </div>  
                       ))}
                     </div>
                 </section>
