@@ -8,9 +8,10 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({  label, className }) => {
   return (
     <button
-      className={`bg-gradient-general hover:bg-none w-[172px] h-[53px] text-white rounded focus:outline-none ${className}`}
+      className={`bg-secondary hover:border-gray-800 w-[85px] h-[25px] text-white rounded focus:outline-none ${className}`}
     >
       {label}
+      <img src="/images/Arrow.png" alt="" />
     </button>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react'
 import Benefits from './Benefits'
 import Image from 'next/image'
+import Button from '../../global/Button'
 
 type Props = {}
 
@@ -31,13 +32,29 @@ const index = (props: Props) => {
           para4: "Open an Account", 
           image: "/Images/NGR.png",
           figure: "23,000",
-          button: "",
+          button: <Button label='CHOOSE' />,
             },
         {
           title: "Limited Liability",
+          para0: "Register a Limited Liability Company", 
+          para1: "TIN Registration", 
+          para2: "Zero AMF for up to 3 years", 
+          para3: "Search Report", 
+          para4: "Open an Account", 
+          image: "/Images/NGR.png",
+          figure: "47,000",
+          button: <Button label='CHOOSE' />,
             },
         {
           title: "Incoporrated Trustee",
+          para0: "Business Name Registration", 
+          para1: "TIN Registration", 
+          para2: "Zero AMF for up to 3 years", 
+          para3: "Search Report", 
+          para4: "Open an Account", 
+          image: "/Images/NGR.png",
+          figure: "150,000",
+          button: <Button label='CHOOSE' />,
             },
           ];
 
