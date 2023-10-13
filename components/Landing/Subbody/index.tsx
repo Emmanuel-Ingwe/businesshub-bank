@@ -76,7 +76,10 @@ const index = (props: Props) => {
                         <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md w-[265px]">
                           <div className="justify-between border-b flex flex-co items-start">
                             <h3 className="">{item.title}</h3>
-                            <input type="checkbox" />
+                            <input
+                              type="checkbox"
+                              className="rounded-full border text-black appearance-none h-4 w-4 border-opacity-0 checked:bg-[#F8B400] checked:text-white checked:border-transparent focus:outline-none active:bg-brown active:text-white"
+                            />
                           </div>
                           <div className="flex flex-col">
                             <div className="flex">
