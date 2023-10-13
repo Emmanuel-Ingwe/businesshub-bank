@@ -1,5 +1,6 @@
 import React from 'react'
 import Benefits from './Benefits'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -23,6 +24,14 @@ const index = (props: Props) => {
       const dataa = [
         {
           title: "Business Name",
+          para0: "Business Name Registration", 
+          para1: "TIN Registration", 
+          para2: "Zero AMF for up to 3 years", 
+          para3: "Search Report", 
+          para4: "Open an Account", 
+          image: "/Images/NGR.png",
+          figure: "23,000",
+          button: "",
             },
         {
           title: "Limited Liability",
@@ -45,8 +54,24 @@ const index = (props: Props) => {
                             </div>
                         ))}
                     </div>
-                    <div className="mt-[49px]">
-                        ss
+                    <div className="mt-[49px] flex items-center">
+                      {dataa.map((item) => (
+                         <div className="">
+                          <div className="flex justify-between border-b">
+                            <h3 className="">{item.title}</h3>
+                            <input type="checkbox" />
+                          </div>
+                          <div className="flex">
+                            <Image
+                                alt=""
+                                height={14}
+                                width={14}
+                                src="/Images/check.png"
+                            />
+                            <p className=""></p>
+                          </div>
+                         </div>  
+                      ))}
                     </div>
                 </section>
             </>
