@@ -18,7 +18,7 @@ const Navigation = () => {
 			link: "/",
 		  },
 		  {
-			iconsrc: "/images/mail.svg",
+			iconsrc: "/images/notification.png",
 			link: "/",
 		  },
 	  ];
@@ -65,7 +65,7 @@ const Navigation = () => {
 									alt=""
 									height={22}
 									width={23}
-									src="/images/smiley.png"
+									src="/images/bola.png"
 								/>
 								<h1 className="pl-1">Bolaji</h1>
 								<Image
