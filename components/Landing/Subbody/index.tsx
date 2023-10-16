@@ -33,7 +33,7 @@ const index = (props: Props) => {
           image: "/Images/NGR.png",
           figure: "23,000",
           button: <Button label='CHOOSE' />,
-            },
+        },
         {
           title: "Limited Liability",
           para0: "Register a Limited Liability Company", 
