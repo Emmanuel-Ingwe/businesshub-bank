@@ -64,17 +64,17 @@ const index = (props: Props) => {
             <Benefits />
             <>
                 <section className="flex flex-col m-[49px] w-full">
-                    <div className="flex border-b">
+                    <div className="flex border-b w-full">
                         {data.map((item) => (
-                            <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-[222px] h-[46px]">
+                            <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-full h-[46px]">
                                 <h1 className=" text-secondary">{item.title}</h1>
                             </div>
                         ))}
                     </div>
                     
-                    <div className="mt-[49px] grid gap-2 grid-cols-3">
+                    <div className="mt-[49px] grid grid-cols-3 w-full">
                       {dataa.map((item) => (
-                        <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md w-[265px]">
+                        <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md w-full mr-[37px]">
                           <div className="justify-between border-b flex flex-co items-start">
                             <h3 className="">{item.title}</h3>
                             <input
