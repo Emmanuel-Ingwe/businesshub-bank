@@ -61,7 +61,7 @@ const Body = (props: Props) => {
 
   return (
     <>
-      <section className="flex">
+      <section className="flex w-full">
         <div className="h h-screen w-[235px] bg-navbg pl-[12px] pt-[26px]">
           {data.map((item, index) => (
             <div className="flex w-[210px] bg-navcolor hover:bg-brown p-[10px] rounded items-start pl-[30px] mb-[9px]">

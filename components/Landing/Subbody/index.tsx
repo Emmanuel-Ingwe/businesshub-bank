@@ -60,7 +60,7 @@ const index = (props: Props) => {
 
   return (
     <>
-        <section className="flex">
+        <section className="flex w-full">
             <Benefits />
             <>
                 <section className="flex flex-col m-[49px] w-full">
