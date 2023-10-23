@@ -72,7 +72,7 @@ const index = (props: Props) => {
                         ))}
                     </div>
                     
-                    <div className="mt-[49px] grid grid-cols-3 w-full">
+                    <div className="mt-[49px] grid grid-cols-3 gap-10 w-full">
                       {dataa.map((item) => (
                         <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md w-full mr-[37px]">
                           <div className="justify-between border-b flex flex-co items-start">
