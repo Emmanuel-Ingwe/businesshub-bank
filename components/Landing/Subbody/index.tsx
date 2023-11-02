@@ -64,7 +64,7 @@ const index = (props: Props) => {
             <Benefits />
             <>
                 <section className="flex flex-col m-[49px] w-[60%]">
-                    <div className="flex border-b w-ful">
+                    <div className="flex border-b w-[90%]">
                         {data.map((item) => (
                             <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-full h-[46px]">
                                 <h1 className=" text-secondary">{item.title}</h1>
