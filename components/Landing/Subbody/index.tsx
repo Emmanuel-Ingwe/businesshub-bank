@@ -125,7 +125,7 @@ const index = (props: Props) => {
                                   width={14}
                                   src="/Images/greencheck.png"
                               />
-                              <p className=" text-primary text-[10px]">{item.para4}</p>
+                              <p className="text-primary text-[10px]">{item.para4}</p>
                             </div>
                           </div>
                           <div className="grid grid-cols-2">
