@@ -108,7 +108,7 @@ const index = (props: Props) => {
                     <div className="grid gap-10 grid-cols-3 mt-[49px]">
                       {dataa.map((item) => (
                         <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md">
-                          <div className="border-b items-start">
+                          <div className="justify-between border-b flex items-start">
                             <h3 className="">{item.title}</h3>
                             <input
                               type="checkbox"
