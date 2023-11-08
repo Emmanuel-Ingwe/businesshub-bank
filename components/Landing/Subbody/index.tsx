@@ -60,12 +60,11 @@ const index = (props: Props) => {
 
   return (
     <>
-        <section className="flex w-full">
+        <section className="flex w-screen">
             <Benefits />
             <>
-                <section className="flex flex-col m-[49px] w-[70%]">
-                    <div className="flex border-b w-full">
-
+                <section className="flex flex-col m-[49px] w-[60%]">
+                    <div className="flex border-b w-ful">
                         {data.map((item) => (
                             <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-full h-[46px]">
                                 <h1 className=" text-secondary">{item.title}</h1>
@@ -73,7 +72,7 @@ const index = (props: Props) => {
                         ))}
                     </div>
                     
-                    <div className="grid gap-20 grid-cols-3 mt-[49px] w-full">
+                    <div className="grid gap-10 grid-cols-3 mt-[49px] w-ful">
                       {dataa.map((item) => (
                         <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md">
                           <div className="justify-between border-b flex flex-co items-start">
