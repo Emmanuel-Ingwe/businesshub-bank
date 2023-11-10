@@ -93,7 +93,7 @@ const index = (props: Props) => {
 
   return (
     <>
-        <section className="flex w-screen">
+        <section className="flex-col flex lg:flex-row w-screen">
             <Benefits />
             <>
                 <section className="flex flex-col m-[49px] w-[60%]">
