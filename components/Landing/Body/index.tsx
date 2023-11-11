@@ -72,7 +72,7 @@ const Body = (props: Props) => {
                           width={23}
                           src={item.iconsrc}
                         />
-                        <h2 className='pl-[16.5px]'>{item.title}</h2>
+                        <h2 className='pl-[16.6px]'>{item.title}</h2>
               </Link>
             </div>
           ))}
