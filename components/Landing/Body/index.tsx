@@ -8,56 +8,56 @@ type Props = {}
 const Body = (props: Props) => {
 
   type data = {
-		iconsrc: "string"
-	}
+    iconsrc: "string"
+  }
 
-	const data = [
+  const data = [
     {
       title: "Get Started",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Dashboard",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Business",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Loans",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Store",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Payments",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Banking",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Settings",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
     {
       title: "Help Center",
-		  iconsrc: "/images/mail.svg",
-		  link: "/",
-		},
-	  ];
+      iconsrc: "/images/mail.svg",
+      link: "/",
+    },
+  ];
 
   return (
     <>
@@ -66,18 +66,18 @@ const Body = (props: Props) => {
           {data.map((item, index) => (
             <div className="flex w-[210px] bg-navcolor hover:bg-brown p-[10px] rounded items-start pl-[30px] mb-[9px]">
               <Link href={item.link} className="flex" >
-                        <Image
-                          alt=""
-                          height={23}
-                          width={23}
-                          src={item.iconsrc}
-                        />
-                        <h2 className='pl-[16.6px]'>{item.title}</h2>
+                <Image
+                  alt=""
+                  height={23}
+                  width={23}
+                  src={item.iconsrc}
+                />
+                <h2 className='pl-[16.6px]'>{item.title}</h2>
               </Link>
             </div>
           ))}
         </div>
-          <SubBody />
+        <SubBody />
       </section>
     </>
   )
