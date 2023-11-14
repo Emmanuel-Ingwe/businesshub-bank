@@ -96,7 +96,7 @@ const index = (props: Props) => {
       <section className="flex-col flex lg:flex-row w-screen">
         <Benefits />
         <>
-          <section className="flex flex-col lg:m-0 m-[49px] w-[60%]">
+          <section className="flex m-[49px] flex-col lg:m- w-[60%]">
             <div className="flex border-b w-[90%]">
               {data.map((item) => (
                 <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-full h-[46px]">
