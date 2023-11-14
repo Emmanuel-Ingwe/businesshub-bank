@@ -63,20 +63,7 @@ const index = (props: Props) => {
       para2: "Zero AMF for up to 3 years",
       para3: "Search Report",
       para4: "Open an Account",
-      image: "/images/NGR.png",
-      figure: "150,000",
-      button: <Button label='CHOOSE' />,
-    },
-    {
-      title: "Incoporrated Trustee",
-      para0: "Business Name Registration",
-      para1: "TIN Registration",
-      para2: "Zero AMF for up to 3 years",
-      para3: "Search Report",
-      para4: "Open an Account",
-      image: "/images/NGR.png",
-      figure: "150,000",
-      button: <Button label='CHOOSE' />,
+      button: <Button label='Contact Us' className='items-center w-[250px] translate-x-[-90px]' />,
     },
     {
       title: "Incoporrated Trustee",
@@ -108,15 +95,15 @@ const index = (props: Props) => {
             <div className="grid gap-10 grid-cols-3 mt-[49px]">
               {dataa.map((item) => (
                 <div className="pl-[21px] pr-[10px] pt-[21px] rounded-xl pb-[21px] shadow-md">
-                  <div className="justify-between border-b flex items-start">
+                  <div className="justify-between pb-[13px] border-b flex items-start">
                     <h3 className="">{item.title}</h3>
                     <input
                       type="checkbox"
                       className="rounded-full border text-black appearance-none h-4 w-4 border-opacity-0 checked:bg-[#F8B400] checked:text-white checked:border-transparent focus:outline-none active:bg-brown active:text-white"
                     />
                   </div>
-                  <div className="flex flex-col">
-                    <div className="flex">
+                  <div className="flex pt-[13px] flex-col">
+                    <div className="flex pb-[7px]">
                       <Image
                         alt=""
                         height={14}
@@ -125,7 +112,7 @@ const index = (props: Props) => {
                       />
                       <p className=" text-primary text-[10px]">{item.para0}</p>
                     </div>
-                    <div className="flex">
+                    <div className="flex pb-[7px]">
                       <Image
                         alt=""
                         height={14}
@@ -134,7 +121,7 @@ const index = (props: Props) => {
                       />
                       <p className=" text-primary text-[10px]">{item.para1}</p>
                     </div>
-                    <div className="flex">
+                    <div className="flex pb-[7px]">
                       <Image
                         alt=""
                         height={14}
@@ -143,7 +130,7 @@ const index = (props: Props) => {
                       />
                       <p className=" text-primary text-[10px]">{item.para2}</p>
                     </div>
-                    <div className="flex">
+                    <div className="flex pb-[7px]">
                       <Image
                         alt=""
                         height={14}
@@ -152,7 +139,7 @@ const index = (props: Props) => {
                       />
                       <p className=" text-primary text-[10px]">{item.para3}</p>
                     </div>
-                    <div className="flex">
+                    <div className="flex border-b pb-[13px]">
                       <Image
                         alt=""
                         height={14}
@@ -162,14 +149,17 @@ const index = (props: Props) => {
                       <p className="text-primary text-[10px]">{item.para4}</p>
                     </div>
                   </div>
-                  <div className="grid grid-cols-2">
-                    <div className="flex">
-                      <Image
-                        src={item.image}
-                        alt='img'
-                        width={20}
-                        height={20}
-                      /> {item.figure}
+                  <div className="pt-[13px] items-center gap-[37px] flex justify-between">
+                    <div className="flex items-center">
+                      <div className="pr-2">
+                        <Image
+                          src={item.image}
+                          alt=''
+                          width={44}
+                          height={14}
+                        />
+                      </div>
+                      <p className="text-[18px] font-[500]">{item.figure}</p>
                     </div>
                     <div className="">
                       {item.button}
