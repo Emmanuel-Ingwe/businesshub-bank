@@ -2,23 +2,32 @@ import React from 'react'
 import Benefits from './Benefits'
 import Image from 'next/image'
 import Button from '../../global/Button'
+import Link from 'next/link'
 
 type Props = {}
 
 const index = (props: Props) => {
+
+
+
+
   type data = {
     title: "string"
+    href?: "string"
   }
 
   const data = [
     {
       title: "Basic Business support",
+      href: 'https://github.com/'
     },
     {
+      href: 'https://github.com/',
       title: "Custom Business support",
     },
     {
       title: "View Status",
+      href: 'https://github.com/'
     },
   ];
 
@@ -87,7 +96,9 @@ const index = (props: Props) => {
             <div className="flex border-b w-[90%]">
               {data.map((item) => (
                 <div className="flex items-center justify-center border rounded-tr rounded-tl hover:bg-deepbrown border-t-secondary border-l-secondary border-r-secondary mr-[11px] w-full h-[46px]">
-                  <h1 className="text-secondary">{item.title}</h1>
+                  <a href={item.href}>
+                    <h1 className="text-secondary">{item.title}</h1>
+                  </a>
                 </div>
               ))}
             </div>
