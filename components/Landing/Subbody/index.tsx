@@ -32,7 +32,7 @@ const index = (props: Props) => {
       para4: "Open an Account",
       image: "/Images/NGR.png",
       figure: "23,000",
-      button: <Button label='CHOOSE' />,
+      button: <Button showimg={true} label='CHOOSE' />,
     },
     {
       title: "Limited Liability",
@@ -43,7 +43,7 @@ const index = (props: Props) => {
       para4: "Open an Account",
       image: "/Images/NGR.png",
       figure: "47,000",
-      button: <Button label='CHOOSE' />,
+      button: <Button showimg={true} label='CHOOSE' />,
     },
     {
       title: "Incoporrated Trustee",
@@ -54,7 +54,7 @@ const index = (props: Props) => {
       para4: "Open an Account",
       image: "/images/NGR.png",
       figure: "150,000",
-      button: <Button label='CHOOSE' />,
+      button: <Button showimg={true} label='CHOOSE' />,
     },
     {
       title: "Incoporrated Trustee",
@@ -63,7 +63,7 @@ const index = (props: Props) => {
       para2: "Zero AMF for up to 3 years",
       para3: "Search Report",
       para4: "Open an Account",
-      button: <Button label='Contact Us' className='items-center w-[250px] translate-x-[-90px]' />,
+      button: <Button showimg={true} label='Contact Us' className='items-center w-[250px] translate-x-[-90px]' />,
     },
     {
       title: "Incoporrated Trustee",
@@ -74,7 +74,7 @@ const index = (props: Props) => {
       para4: "Open an Account",
       image: "/images/NGR.png",
       figure: "150,000",
-      button: <Button label='CHOOSE' />,
+      button: <Button showimg={true} label='CHOOSE' />,
     },
   ];
 
