@@ -63,7 +63,7 @@ const index = (props: Props) => {
       para2: "Zero AMF for up to 3 years",
       para3: "Search Report",
       para4: "Open an Account",
-      button: <Button showimg={true} label='Contact Us' className='items-center w-[250px] translate-x-[-90px]' />,
+      button: <Button showimg={true} label='Contact Us' className='items-center w-[260px] translate-x-[-97px]' />,
     },
     {
       title: "Incoporrated Trustee",
